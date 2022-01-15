@@ -3,9 +3,9 @@ A simple Fork of [http.h by mattiasgustavsson](https://github.com/mattiasgustavs
 
 ![Redownloading CodeBlocks from my site](https://raw.githubusercontent.com/pawbyte/http_pleasant/main/gfx/console_downloader_via_http.gif)
 
-# Make Get and Post request over HTPP( https not supported, no SSL support "yet")
+## Make Get and Post request over HTPP( https not supported, no SSL support "yet")
 
-#Functions:
+### Functions:
 
 http_get
 --------
@@ -40,7 +40,7 @@ http_release
   Call using the post and get functions.
   
 
-Donate to make http_pleasant greater
+## Donate to make http_pleasant greater
 =========================================
 Work on open source projects like this is not possible without funding. The amount of time it takes to update the codebases, create examples, tutorials and more is quite expensive. Please consider either a one-time or monthly donation to keep this engine going and more frequently updated. 
 
