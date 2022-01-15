@@ -39,6 +39,11 @@ Sends a get request to a website via htpp.  If the request was invalid, `http_ge
 
   Call using the post and get functions.
   
+## Differences between htpp.h and http_pleasant.h
+
+http_pleasant is mostly http.h and it has only been updated to allow for easy creation of loading bars when downloading files.
+There is plans to add support for https, but no real word if this will be doable with exact same base codebase.
+Modified windows headers area as it was throwing compiler errors on CodeBlocks(using MiniGW).
 
 ## Donate to make http_pleasant greater
 =========================================
