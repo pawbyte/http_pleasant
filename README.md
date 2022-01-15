@@ -7,7 +7,7 @@ A simple Fork of [http.h by mattiasgustavsson](https://github.com/mattiasgustavs
 
 ### Functions:
 
-http_get
+#### http_get
 --------
 
     http_t* http_get( char const* url, void* memctx )
@@ -15,7 +15,7 @@ http_get
 Sends a get request to a website via htpp.  If the request was invalid, `http_get` returns NULL.
 
 
-http_post
+#### http_post
 ---------
 
     http_t* http_post( char const* url, void const* data, size_t size, void* memctx )
@@ -23,7 +23,7 @@ http_post
   Sends a post request to a website via htpp.  If the request was invalid, `http_post` returns NULL.
 
 
-http_process
+#### http_process
 ------------
 
     http_status_t http_process( http_t* http )
@@ -32,7 +32,7 @@ http_process
    Access the current file download and meta-data.
 
 
-http_release
+#### http_release
 ------------
 
     void http_release( http_t* http )
